@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>RegistrationForm</title>
+</head>
+<body>
+    <form action="RegistrationForm" method="post" name="registrationForm">>
+        <h2>Register</h2>
+        
+        <label for="first-name">Name <span>*</span></label><br>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter FirstName" required>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter LastName" required><br><br>
+        
+        <label for="username">Username <span>*</span></label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="email">E-mail <span>*</span></label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password <span>*</span></label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="facebook">Facebook</label><br>
+        <input type="url" id="facebook" name="facebook" placeholder="Enter your Facebook profile URL"><br><br>
+        
+        <label for="bio">Short Bio</label><br>
+        <textarea id="bio" name="bio" rows="4" ></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
